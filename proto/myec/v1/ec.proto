@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "gen/grpc/myec";
+
+package proto.myec.v1;
+
+service MyECService {
+	rpc Order (OrderRequest) returns (OrderResponse);
+}
+
+message OrderRequest {
+	message item {
+		string id = 1;
+		int64 amount = 2;
+	}
+	string id = 1;
+	repeated item items = 2;
+}
+
+message OrderResponse {
+}
