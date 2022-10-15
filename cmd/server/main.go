@@ -8,7 +8,7 @@ import (
 
 	"github.com/blck-snwmn/gomodmonorpc/modules/order"
 	"github.com/blck-snwmn/gomodmonorpc/modules/payment"
-	"github.com/blck-snwmn/gomodmonorpc/modules/proto/gen/buf/proto/myec/v1"
+	myec "github.com/blck-snwmn/gomodmonorpc/modules/proto/gen/grpc/myec/v1"
 	"google.golang.org/grpc"
 )
 

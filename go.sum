@@ -4,6 +4,8 @@ github.com/blck-snwmn/gomodmonorpc/modules/order v0.0.0-20221015101017-798aa7f90
 github.com/blck-snwmn/gomodmonorpc/modules/order v0.0.0-20221015101017-798aa7f903e8/go.mod h1:ClnWyjKySZN7hIKMkZvwKH8W07hOCEWlTFRMLYFVkT4=
 github.com/blck-snwmn/gomodmonorpc/modules/payment v0.0.0-20221015101017-798aa7f903e8 h1:nigG0a1GljUMraRsbPpGyRgHJyciOnXPBnANUUSmu7g=
 github.com/blck-snwmn/gomodmonorpc/modules/payment v0.0.0-20221015101017-798aa7f903e8/go.mod h1:Spi4WUfGq4/iLG0h2Zjfy+Fp4lPt0tXpOnImiRm21s0=
+github.com/blck-snwmn/gomodmonorpc/modules/proto v0.0.0-20221015190110-e563187809a6 h1:EtZRPj4+kqzicCaXcJYkY8zZJhKLgGEUgYvefeFBIjc=
+github.com/blck-snwmn/gomodmonorpc/modules/proto v0.0.0-20221015190110-e563187809a6/go.mod h1:4X2Nz+HTgRId0XU6MPcnUf21TMkGoOB3LeDcOr/qr+k=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/envoyproxy/go-control-plane v0.9.1-0.20191026205805-5f8ba28d4473/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
@@ -70,8 +72,8 @@ google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013/go.mod h1:NbSheEEY
 google.golang.org/grpc v1.19.0/go.mod h1:mqu4LbDTu4XGKhr4mRzUsmM4RtVoemTSY81AxZiDr8c=
 google.golang.org/grpc v1.23.0/go.mod h1:Y5yQAOtifL1yxbo5wqy6BxZv8vAUGQwXBOALyacEbxg=
 google.golang.org/grpc v1.27.0/go.mod h1:qbnxyOmOxrQa7FizSgH+ReBfzJrCY1pSN7KXBS8abTk=
-google.golang.org/grpc v1.49.0 h1:WTLtQzmQori5FUH25Pq4WT22oCsv8USpQ+F6rqtsmxw=
-google.golang.org/grpc v1.49.0/go.mod h1:ZgQEeidpAuNRZ8iRrlBKXZQP1ghovWIVhdJRyCDK+GI=
+google.golang.org/grpc v1.50.1 h1:DS/BukOZWp8s6p4Dt/tOaJaTQyPyOoCcrjroHuCeLzY=
+google.golang.org/grpc v1.50.1/go.mod h1:ZgQEeidpAuNRZ8iRrlBKXZQP1ghovWIVhdJRyCDK+GI=
 google.golang.org/protobuf v0.0.0-20200109180630-ec00e32a8dfd/go.mod h1:DFci5gLYBciE7Vtevhsrf46CRTquxDuWsQurQQe4oz8=
 google.golang.org/protobuf v0.0.0-20200221191635-4d8936d0db64/go.mod h1:kwYJMbMJ01Woi6D6+Kah6886xMZcty6N08ah7+eCXa0=
 google.golang.org/protobuf v0.0.0-20200228230310-ab0ca4ff8a60/go.mod h1:cfTl7dwQJ+fmap5saPgwCLgHXTUD7jkjRqWcaiX5VyM=
