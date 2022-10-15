@@ -1,4 +1,4 @@
-module github.com/blck-snwmn/gomodmono
+module github.com/blck-snwmn/gomodmonorpc
 
 go 1.19
 
