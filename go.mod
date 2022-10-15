@@ -3,7 +3,8 @@ module github.com/blck-snwmn/gomodmonorpc
 go 1.19
 
 require (
-	github.com/blck-snwmn/gomodmono/modules/order v0.0.0-20220929171746-14b64b4b07a9
+	github.com/blck-snwmn/gomodmonorpc/modules/order v0.0.0-20221015101017-798aa7f903e8
+	github.com/blck-snwmn/gomodmonorpc/modules/payment v0.0.0-20221015101017-798aa7f903e8
 	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.28.1
 )

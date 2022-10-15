@@ -6,9 +6,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/blck-snwmn/gomodmono/gen/buf/proto/myec/v1"
-	"github.com/blck-snwmn/gomodmono/modules/order"
-	"github.com/blck-snwmn/gomodmono/modules/payment"
+	"github.com/blck-snwmn/gomodmonorpc/gen/buf/proto/myec/v1"
+	"github.com/blck-snwmn/gomodmonorpc/modules/order"
+	"github.com/blck-snwmn/gomodmonorpc/modules/payment"
 	"google.golang.org/grpc"
 )
 

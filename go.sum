@@ -1,7 +1,9 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/blck-snwmn/gomodmono/modules/order v0.0.0-20220929171746-14b64b4b07a9 h1:9VJg+xlb4HMKjFdNaDUMVO5INhtZii64SPngVxQz/oc=
-github.com/blck-snwmn/gomodmono/modules/order v0.0.0-20220929171746-14b64b4b07a9/go.mod h1:SrwilOoX4hMKHV2FqMw+g2PQRXD3ko7kumPyjIPBZvg=
+github.com/blck-snwmn/gomodmonorpc/modules/order v0.0.0-20221015101017-798aa7f903e8 h1:0Q0T2XCjKhwriWj2R89gLog8VmUawScZfGRKodF0gvM=
+github.com/blck-snwmn/gomodmonorpc/modules/order v0.0.0-20221015101017-798aa7f903e8/go.mod h1:ClnWyjKySZN7hIKMkZvwKH8W07hOCEWlTFRMLYFVkT4=
+github.com/blck-snwmn/gomodmonorpc/modules/payment v0.0.0-20221015101017-798aa7f903e8 h1:nigG0a1GljUMraRsbPpGyRgHJyciOnXPBnANUUSmu7g=
+github.com/blck-snwmn/gomodmonorpc/modules/payment v0.0.0-20221015101017-798aa7f903e8/go.mod h1:Spi4WUfGq4/iLG0h2Zjfy+Fp4lPt0tXpOnImiRm21s0=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/envoyproxy/go-control-plane v0.9.1-0.20191026205805-5f8ba28d4473/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
