@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             (unknown)
-// source: proto/myec/v1/ec.proto
+// source: modules/proto/myec/v1/ec.proto
 
-package myec
+package v1
 
 import (
 	context "context"
@@ -99,5 +99,5 @@ var MyECService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "proto/myec/v1/ec.proto",
+	Metadata: "modules/proto/myec/v1/ec.proto",
 }
