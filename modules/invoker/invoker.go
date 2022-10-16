@@ -9,13 +9,21 @@ import (
 	"google.golang.org/grpc"
 )
 
-type invokef = func() func(ctx context.Context, method string, args interface{}, reply interface{}, _ ...grpc.CallOption) error
-
-type store struct {
-	m map[string]invokef
+func Cp[T any](out, in *T) {
+	*out = *in
 }
 
-func (s *store) Register(fullmethod string, f invokef) error {
+type invoke = func(ctx context.Context, method string, args interface{}, reply interface{}, _ ...grpc.CallOption) error
+
+type Store struct {
+	m map[string]invoke
+}
+
+func NewStore() *Store {
+	return &Store{m: map[string]invoke{}}
+}
+
+func (s *Store) Register(fullmethod string, f invoke) error {
 	k, err := extractKey(fullmethod)
 	if err != nil {
 		return err
@@ -24,7 +32,11 @@ func (s *store) Register(fullmethod string, f invokef) error {
 	return nil
 }
 
-func (s *store) Invokef(fullmethod string) (invokef, error) {
+func (s *Store) RegisterByServiceName(serviceName string, f invoke) {
+	s.m[serviceName] = f
+}
+
+func (s *Store) Invokef(fullmethod string) (invoke, error) {
 	k, err := extractKey(fullmethod)
 	if err != nil {
 		return nil, err
