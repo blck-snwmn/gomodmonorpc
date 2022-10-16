@@ -1,4 +1,11 @@
-# 
+# gomodmonorpc 
+
+gomodmonorpc is go multi module, modular monolith(use Protocol Buffers) sample.
+
+## Run
+```bash
+go run cmd/server/main.go
+```
 
 ## Workspace mode
 
