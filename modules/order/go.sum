@@ -1,7 +1,7 @@
-github.com/blck-snwmn/gomodmonorpc/modules/invoker v0.0.0-20221016063323-614caffa25a6 h1:e+94anc8vRYmi0/Ze1p5nj7tyRQHlzzNDR/kAe4XEJ4=
-github.com/blck-snwmn/gomodmonorpc/modules/invoker v0.0.0-20221016063323-614caffa25a6/go.mod h1:rTfb4e059IjWrCtwfTUTS1Nj/VIDKiqMllY9UkbkJsg=
-github.com/blck-snwmn/gomodmonorpc/modules/proto v0.0.0-20221016063323-614caffa25a6 h1:ehsXBURfbqP/5VcgmO2ZC1PQqoCuPqkYb0FrNCLOhEU=
-github.com/blck-snwmn/gomodmonorpc/modules/proto v0.0.0-20221016063323-614caffa25a6/go.mod h1:4X2Nz+HTgRId0XU6MPcnUf21TMkGoOB3LeDcOr/qr+k=
+github.com/blck-snwmn/gomodmonorpc/modules/invoker v0.0.0-20230221141046-48210035217b h1:Pez/cqbq8ydHmf7AC4ELk/yfN8uLis5cM/iUN1jTGrI=
+github.com/blck-snwmn/gomodmonorpc/modules/invoker v0.0.0-20230221141046-48210035217b/go.mod h1:CO0qQV6Z8dMsPfS4bFMx7sZcU6ihbHepcEhhcLgHUcM=
+github.com/blck-snwmn/gomodmonorpc/modules/proto v0.0.0-20230221141046-48210035217b h1:mfJBBs+SeFcn+g0d+mmJdTCUC6U2Qbq8UVTU6LqidCU=
+github.com/blck-snwmn/gomodmonorpc/modules/proto v0.0.0-20230221141046-48210035217b/go.mod h1:m4I2QMr/4iBEWBlaVUCibGD2KasX38Zwml9g0MkdaAo=
 github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaSAoJOfIk=
 github.com/golang/protobuf v1.5.2 h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=
 github.com/golang/protobuf v1.5.2/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiuN0vRsmY=
